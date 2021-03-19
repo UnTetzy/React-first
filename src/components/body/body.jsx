@@ -7,7 +7,7 @@ const Body = () => {
     <body>
       <main className="page">
         <div className="container">
-          <div className="page-inner">
+          <div className="page__inner">
             <Sidebar /> 
             <Profile />
           </div>

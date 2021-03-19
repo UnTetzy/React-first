@@ -11,3 +11,6 @@
   object-position: center 40%;
   display: block;
 }
+.profile__wrapper{
+  padding: 15px;
+}

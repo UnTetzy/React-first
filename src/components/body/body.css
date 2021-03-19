@@ -1,11 +1,12 @@
 body{
+  font-family: sans-serif;
   color: #797980;
   background-color: #222226;
 }
 .page{
   margin-top: 10px;
 }
-.page-inner{
+.page__inner{
   display: flex;
   justify-content: space-between;
   height: calc(100vh - 77px);

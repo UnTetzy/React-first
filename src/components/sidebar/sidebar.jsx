@@ -5,7 +5,7 @@ const Sidebar = () => {
     <aside className="sidebar">
       <ul className="sidebar-nav">
         <li className="sidebar-nav__item">
-          <a className="sidebar-nav__link" href="#">
+          <a className="sidebar-nav__link active" href="#">
             Profile
           </a>
         </li>
@@ -15,7 +15,7 @@ const Sidebar = () => {
           </a>
         </li>
         <li className="sidebar-nav__item">
-          <a className="sidebar-nav__link active" href="#">
+          <a className="sidebar-nav__link" href="#">
             Messages
           </a>
         </li>
