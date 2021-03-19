@@ -1,3 +1,5 @@
+import './sidebar.css'
+
 const Sidebar = () => {
   return (
     <aside className="sidebar">
@@ -13,13 +15,33 @@ const Sidebar = () => {
           </a>
         </li>
         <li className="sidebar-nav__item">
-          <a className="sidebar-nav__link" href="#">
+          <a className="sidebar-nav__link active" href="#">
             Messages
           </a>
         </li>
         <li className="sidebar-nav__item">
           <a className="sidebar-nav__link" href="#">
+            Friends
+          </a>
+        </li>
+        <li className="sidebar-nav__item">
+          <a className="sidebar-nav__link" href="#">
             Music
+          </a>
+        </li>
+        <li className="sidebar-nav__item">
+          <a className="sidebar-nav__link" href="#">
+            Сommunity
+          </a>
+        </li>
+        <li className="sidebar-nav__item">
+          <a className="sidebar-nav__link" href="#">
+            Photos
+          </a>
+        </li>
+        <li className="sidebar-nav__item">
+          <a className="sidebar-nav__link" href="#">
+            Videos
           </a>
         </li>
         <li className="sidebar-nav__item">

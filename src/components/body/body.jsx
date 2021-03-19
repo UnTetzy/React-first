@@ -1,5 +1,6 @@
-import Sidebar from "./sidebar";
-import Profile from "./profile";
+import './body.css';
+import Sidebar from "../sidebar/sidebar";
+import Profile from "../profile/profile";
 
 const Body = () => {
   return (

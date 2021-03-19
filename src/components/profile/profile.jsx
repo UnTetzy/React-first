@@ -1,3 +1,6 @@
+import './profile.css';
+import MyPosts from './myPosts/myPosts';
+
 const Profile = () => {
   return (
     <section className="profile">
@@ -6,9 +9,7 @@ const Profile = () => {
         <div className="user">
           User
         </div>
-        <div className="posts">
-          My posts
-        </div>
+        <MyPosts />
       </div>
   </section>
   );
