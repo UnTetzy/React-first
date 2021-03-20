@@ -15,12 +15,7 @@ const Post = (props) => {
               </a>
             </h5>
             <div className="post__info-date">
-              <div className="post__info-day">
-                {props.day}
-              </div>
-              <div className="post__info-time">
-                {props.time}
-              </div>
+            {props.day} в {props.time}
             </div>
           </div>
         </div>

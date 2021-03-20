@@ -17,16 +17,11 @@
   line-height: 18px;
 }
 .post__info-date{
-  display: flex;
-  align-items: center;
   font-size: 13px;
-}
-.post__info-day{
-  margin-right: 5px;
 }
 .post__content-text{
   cursor: pointer;
   color: #fff;
   font-size: 15px;
-  line-height: 22px;
+  line-height: 20px;
 }
