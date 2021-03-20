@@ -1,0 +1,32 @@
+.post{
+  padding: 15px;
+  background-color: #49494D;
+  border-radius: 4px;
+}
+.post:not(:last-child){
+  margin-bottom: 15px;
+}
+.post__user{
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.post__name{
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+}
+.post__info-date{
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+.post__info-day{
+  margin-right: 5px;
+}
+.post__content-text{
+  cursor: pointer;
+  color: #fff;
+  font-size: 15px;
+  line-height: 22px;
+}

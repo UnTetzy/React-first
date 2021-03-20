@@ -11,8 +11,9 @@ const MyPosts = () => {
       </h4>
       <div className="posts__inner">
         <PostsForm />
-        <Post message="Post 1" />
-        <Post message="Post 2" />
+        <Post name="Alexander Vetrov" day="3 марта" time="в 19:04" message="Сегодня я сходил погулять" />
+        <Post name="Alexander Vetrov" day="1 марта" time="в 19:04" message="АЛАЛАЛААЛАЛАааааааааааааааааааааааааааааааааааааааааааааffffffffffffffffffffff" />
+        <Post name="Alexander Vetrov" day="12 февраля" time="в 19:04" message="Сегодня я не сходил погулять" />
       </div>
     </div>
   );

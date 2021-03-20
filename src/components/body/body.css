@@ -1,6 +1,8 @@
 body{
   font-family: sans-serif;
   color: #797980;
+  font-size: 14px;
+  line-height: 22px;
   background-color: #222226;
 }
 .page{
@@ -9,5 +11,5 @@ body{
 .page__inner{
   display: flex;
   justify-content: space-between;
-  height: calc(100vh - 77px);
+  min-height: calc(100vh - 79px);
 }

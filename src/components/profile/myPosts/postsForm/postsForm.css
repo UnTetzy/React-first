@@ -1,6 +1,5 @@
 .postst__form{
-  width: 750px;
-  max-width: 100%;
+  margin-bottom: 40px;
 }
 .postst__form-textarea{
   outline: none;
@@ -14,7 +13,7 @@
   font-size: 15px;
   background-color: #49494D;
   border-radius: 4px;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 }
 .postst__form-textarea:focus{
   border-color: #fff;
