@@ -1,0 +1,15 @@
+body{
+  font-family: sans-serif;
+  color: #797980;
+  font-size: 14px;
+  line-height: 22px;
+  background-color: #222226;
+}
+.page{
+  margin-top: 10px;
+}
+.page__inner{
+  display: flex;
+  
+  min-height: calc(100vh - 79px);
+}

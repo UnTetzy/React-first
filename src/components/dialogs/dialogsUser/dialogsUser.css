@@ -1,0 +1,25 @@
+.dialogs__user{
+  display: flex;
+  align-items: flex-start;
+  width: 290px;
+  max-width: 100%;
+  padding: 9px 0 9px 15px;
+  border-radius: 4px;
+  border-bottom: 2px solid #2B2B2F;
+}
+.dialogs__user:first-child{
+  border-top: 2px solid #2B2B2F;
+}
+.dialogs__user.active{
+  background-color: #2B2B2F;
+}
+.dialogs__info-name{
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 4px;
+  margin-bottom: 3px;
+}
+.dialogs__info-message{
+  font-size: 13px;
+}

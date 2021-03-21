@@ -1,0 +1,50 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+.container{
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.avatar{
+  width: 55px;
+  height: 55px;
+  margin-right: 15px;
+  display: block;
+}
+.avatar__img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
