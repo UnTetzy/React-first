@@ -1,0 +1,28 @@
+.dialogs__message{
+  width: 100%;
+  max-width: 100%;
+  min-height: calc(100vh - 79px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #2B2B2F;
+}
+.dialogs__message-header{
+  padding: 20px 15px;
+  background-color: #333336;
+}
+.dialogs__message-text{
+  flex-grow: 1;
+}
+.dialogs__message-textarea{
+  outline: none;
+  resize: none;
+  width: 100%;
+  max-width: 100%;
+  height: 54px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #797980;
+  background-color: #333336;
+}

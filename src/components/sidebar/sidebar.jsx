@@ -1,53 +1,54 @@
-import './sidebar.css'
+import './sidebar.css';
+import {NavLink} from 'react-router-dom';
 
 const Sidebar = () => {
   return (
     <aside className="sidebar">
       <ul className="sidebar-nav">
         <li className="sidebar-nav__item">
-          <a className="sidebar-nav__link active" href="/profile">
+          <NavLink className="sidebar-nav__link" to="/profile" activeClassName="active">
             Profile
-          </a>
+          </NavLink>
         </li>
         <li className="sidebar-nav__item">
-          <a className="sidebar-nav__link" href="/news">
+          <NavLink className="sidebar-nav__link" to="/news" activeClassName="active">
             News
-          </a>
+          </NavLink>
         </li>
         <li className="sidebar-nav__item">
-          <a className="sidebar-nav__link" href="/dialogs">
+          <NavLink className="sidebar-nav__link" to="/dialogs" activeClassName="active">
             Messages
-          </a>
+          </NavLink>
         </li>
         <li className="sidebar-nav__item">
-          <a className="sidebar-nav__link" href="/friends">
+          <NavLink className="sidebar-nav__link" to="/friends" activeClassName="active">
             Friends
-          </a>
+          </NavLink>
         </li>
         <li className="sidebar-nav__item">
-          <a className="sidebar-nav__link" href="#">
+          <NavLink className="sidebar-nav__link" to="/music" activeClassName="active">
             Music
-          </a>
+          </NavLink>
         </li>
         <li className="sidebar-nav__item">
-          <a className="sidebar-nav__link" href="#">
+          <NavLink className="sidebar-nav__link" to="/community" activeClassName="active">
             Сommunity
-          </a>
+          </NavLink>
         </li>
         <li className="sidebar-nav__item">
-          <a className="sidebar-nav__link" href="#">
+          <NavLink className="sidebar-nav__link" to="/photos" activeClassName="active">
             Photos
-          </a>
+          </NavLink>
         </li>
         <li className="sidebar-nav__item">
-          <a className="sidebar-nav__link" href="#">
+          <NavLink className="sidebar-nav__link" to="/videos" activeClassName="active">
             Videos
-          </a>
+          </NavLink>
         </li>
         <li className="sidebar-nav__item">
-          <a className="sidebar-nav__link" href="#">
+          <NavLink className="sidebar-nav__link" to="/settings" activeClassName="active">
             Settings
-          </a>
+          </NavLink>
         </li>
       </ul>
     </aside> 
