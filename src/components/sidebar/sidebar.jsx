@@ -5,22 +5,22 @@ const Sidebar = () => {
     <aside className="sidebar">
       <ul className="sidebar-nav">
         <li className="sidebar-nav__item">
-          <a className="sidebar-nav__link active" href="#">
+          <a className="sidebar-nav__link active" href="/profile">
             Profile
           </a>
         </li>
         <li className="sidebar-nav__item">
-          <a className="sidebar-nav__link" href="#">
+          <a className="sidebar-nav__link" href="/news">
             News
           </a>
         </li>
         <li className="sidebar-nav__item">
-          <a className="sidebar-nav__link" href="#">
+          <a className="sidebar-nav__link" href="/dialogs">
             Messages
           </a>
         </li>
         <li className="sidebar-nav__item">
-          <a className="sidebar-nav__link" href="#">
+          <a className="sidebar-nav__link" href="/friends">
             Friends
           </a>
         </li>
