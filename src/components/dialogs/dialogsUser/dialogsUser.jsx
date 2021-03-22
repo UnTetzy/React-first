@@ -1,8 +1,9 @@
 import './dialogsUser.css';
+import { NavLink } from 'react-router-dom';
 
 const DialogsUser = (props) => {
   return (
-    <a className="dialogs__user" href="#">
+    <NavLink className="dialogs__user" to={"/dialogs" + props.id}>
       <a className="avatar" href="#">
         <img className="dialogs__avatar avatar__img" src="https://static.probusiness.io/720x480c/n/03/d/38097027_439276526579800_2735888197547458560_n.jpg" alt="Avatar"/>
       </a>
@@ -14,7 +15,7 @@ const DialogsUser = (props) => {
           {props.message}
         </div>
       </div>
-    </a>
+    </NavLink>
   );
 }
 
