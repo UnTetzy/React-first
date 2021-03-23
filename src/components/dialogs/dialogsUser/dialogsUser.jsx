@@ -14,9 +14,6 @@ const DialogsUser = (props) => {
         <h5 className="dialogs__info-name">
           {props.name}
         </h5>
-        <div className="dialogs__info-message">
-          {props.message}
-        </div>
       </div>
     </NavLink>
   );
