@@ -13,16 +13,16 @@ const Dialogs = (props) => {
     {id: 6, name: 'Dima Vetrov'}
   ]
 
+  let dialogsEl = dialogsData
+    .map( dialog => <DialogsUser id={dialog.id} name={dialog.name} /> ); 
+  
+  
+
   return (
     <section className="dialogs">
       <div className="dialogs__inner">
         <div className="dialogs__users">
-          <DialogsUser id={dialogsData[0].id} name={dialogsData[0].name} />
-          <DialogsUser id={dialogsData[1].id} name={dialogsData[1].name} />
-          <DialogsUser id="/3" name="Sasha Vetrov" />
-          <DialogsUser id="/4" name="Oleg Vetrov" />
-          <DialogsUser id="/5" name="Grisha Vetrov" />
-          <DialogsUser id="/6" name="Dima Vetrov" />
+          {dialogsEl}
         </div>
         <div className="dialogs__messages">
           <DialogsMessage />

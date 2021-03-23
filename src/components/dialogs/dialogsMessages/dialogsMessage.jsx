@@ -16,15 +16,16 @@ const DialogsMessage = () => {
     {message: 'Логотип андерграунда на баранке'}
   ]
 
+  let messagesEl = messagesData
+    .map(message => <Message message={message.message} />); 
+
   return (
     <div className="dialogs__message">
       <div className="dialogs__message-header">
         Поиск и тд
       </div>
       <div className="dialogs__message-text">
-        <Message message={messagesData[0].message} />
-        <Message message={messagesData[1].message} />
-        <Message message={messagesData[2].message} />
+        {messagesEl}
       </div>
       <textarea className="dialogs__message-textarea" placeholder="Напишите сообщение..."></textarea>
     </div>
