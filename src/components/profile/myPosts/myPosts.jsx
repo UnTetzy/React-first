@@ -11,6 +11,9 @@ const MyPosts = () => {
     {id: 3, name: 'Alexander Vetrov', day: '12 февраля', time: '17:04', message: 'Сегодня я не сходил погулять'}
   ]
 
+  let postsEl = postData.map(post => 
+    <Post id={post.id} name={post.name} day={post.day} time={post.time} message={post.message} />)
+
   return (
     <div className="posts">
       <h4 className="posts__title">
@@ -18,9 +21,7 @@ const MyPosts = () => {
       </h4>
       <div className="posts__inner">
         <PostsForm />
-        <Post id={postData[0].id} name={postData[0].name} day={postData[0].day} time={postData[0].time} message={postData[0].message} />
-        <Post id={postData[1].id} name={postData[1].name} day={postData[1].day} time={postData[1].time} message={postData[1].message} />
-        <Post id={postData[2].id} name={postData[2].name} day={postData[2].day} time={postData[2].time} message={postData[2].message} />
+        {postsEl}
       </div>
     </div>
   );

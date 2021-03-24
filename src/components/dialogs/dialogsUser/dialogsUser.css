@@ -7,9 +7,6 @@
   border-radius: 4px;
   border-top: 2px solid #2B2B2F;
 }
-/* .dialogs__user:first-child{
-  border-top: 2px solid #2B2B2F;
-} */
 .dialogs__user.active{
   background-color: #2B2B2F;
 }

@@ -1,19 +1,12 @@
 import './dialogsMessage.css';
-
-const Message = (props) => {
-  return (
-    <div className="dialogs__message-text_user">
-      {props.message}
-    </div>
-  );
-}
+import Message from './message/message';
 
 const DialogsMessage = () => {
 
   let messagesData = [
     {message: 'Привет как дела'},
     {message: 'Хахахахаха'},
-    {message: 'Логотип андерграунда на баранке'}
+    {message: 'Норм привет'}
   ]
 
   let messagesEl = messagesData
