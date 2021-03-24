@@ -6,7 +6,8 @@ import News from '../news/news';
 import Dialogs from '../dialogs/dialogs';
 import Friends from '../friends/friends';
 
-const Body = () => {
+const Body = (props) => {
+
   return (
     <BrowserRouter>
       <body>
@@ -14,10 +15,10 @@ const Body = () => {
           <div className="container">
             <div className="page__inner">
               <Sidebar /> 
-              <Route component={Profile} path="/profile" />
-              <Route component={News} path="/news" />
-              <Route component={Dialogs} path="/dialogs" />
-              <Route component={Friends} path="/friends" />
+              <Route render={() => <Profile posts={props.posts} />} path="/profile" />
+              <Route render={() => <News />} path="/news" />
+              <Route render={() => <Dialogs dialogs={props.dialogs} messages={props.messages} />} path="/dialogs" />
+              <Route render={() => <Friends />} path="/friends" />
             </div>
           </div>
         </main>   

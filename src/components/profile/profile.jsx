@@ -2,12 +2,13 @@ import './profile.css';
 import MainUser from './mainUser/mainUser';
 import MyPosts from './myPosts/myPosts';
 
-const Profile = () => {
+const Profile = (props) => {
+
   return (
     <section className="profile">
       <div className="profile__wrapper">
         <MainUser />
-        <MyPosts />
+        <MyPosts posts={props.posts} />
       </div>
   </section>
   );

@@ -1,15 +1,9 @@
 import './dialogsMessage.css';
 import Message from './message/message';
 
-const DialogsMessage = () => {
+const DialogsMessage = (props) => {
 
-  let messagesData = [
-    {message: 'Привет как дела'},
-    {message: 'Хахахахаха'},
-    {message: 'Норм привет'}
-  ]
-
-  let messagesEl = messagesData
+  let messagesEl = props.messages
     .map(message => <Message message={message.message} />); 
 
   return (

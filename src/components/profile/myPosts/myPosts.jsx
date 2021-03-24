@@ -3,15 +3,9 @@ import Post from './post/post';
 import PostsForm from './postsForm/postsForm';
 
 
-const MyPosts = () => {
+const MyPosts = (props) => {
 
-  let postData = [
-    {id: 1, name: 'Alexander Vetrov', day: '3 марта', time: '19:04', message: 'Сегодня я сходил погулять'},
-    {id: 2, name: 'Alexander Vetrov', day: '1 марта', time: '18:04', message: 'АЛАЛАЛААЛАЛАааааааааааааааааааааааааааааааааааааааааааааffffffffffffffffffffff'},
-    {id: 3, name: 'Alexander Vetrov', day: '12 февраля', time: '17:04', message: 'Сегодня я не сходил погулять'}
-  ]
-
-  let postsEl = postData.map(post => 
+  let postsEl = props.posts.map(post => 
     <Post id={post.id} name={post.name} day={post.day} time={post.time} message={post.message} />)
 
   return (
